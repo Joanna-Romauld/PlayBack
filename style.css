@@ -1,0 +1,288 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&display=swap');
+header{
+    background-image: linear-gradient(to right, navy, purple);
+    background-color: black;
+    padding: 20px;
+    border-radius: 10px;
+    border: 5px solid grey;
+}
+.sidebar{
+    margin-top: 25px;
+    padding: 20px;
+    height: 50px;
+    top: 0;
+    left: 0;
+    background-color: black;
+    padding: 20px;
+    border-radius: 10px;
+    border: 5px solid grey;
+    align-items: center;
+    flex-direction: row;
+}
+.sidebar a{
+    color: purple;
+    text-align: center;
+    display: block;
+}
+
+
+body{
+    font-family: "Audiowide";
+    background-color: navy;
+    
+
+    background-image: url(Images/retro1.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+}
+h1{
+color:white;
+text-align: center;
+}
+p{
+    color:white;
+    text-align: center;
+}
+
+.game-container{
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.game-container2{
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.game-card1{
+position: relative;
+color: white;
+background-color: black;
+border-radius: 15px;
+width: 280px;
+height: 350px;
+padding: 20px;
+margin: 20px;
+box-shadow: 10px 10px rgb(59, 55, 55);
+}
+.game-card2{
+position: relative;
+color: white;
+background-color: black;
+border-radius: 15px;
+width: 280px;
+height: 350px;
+padding: 20px;
+margin: 20px;
+box-shadow: 10px 10px rgb(59, 55, 55);
+}
+.game-card3{
+position: relative;
+color: white;
+background-color: black;
+border-radius: 15px;
+width: 280px;
+height: 350px;
+padding: 20px;
+margin: 20px;
+box-shadow: 10px 10px rgb(59, 55, 55);
+}
+.game-card4{
+position: relative;
+color: white;
+background-color: black;
+border-radius: 15px;
+width: 280px;
+height: 350px;
+padding: 20px;
+margin: 20px;
+box-shadow: 10px 10px rgb(59, 55, 55);
+}
+.game-card5{
+position: relative;
+color: white;
+background-color: black;
+border-radius: 15px;
+width: 280px;
+height: 350px;
+padding: 20px;
+margin: 20px;
+box-shadow: 10px 10px rgb(59, 55, 55);
+}
+.game-card6{
+position: relative;
+color: white;
+background-color: black;
+border-radius: 15px;
+width: 280px;
+height: 350px;
+padding: 20px;
+margin: 20px;
+box-shadow: 10px 10px rgb(59, 55, 55);
+}
+.game-card7{
+position: relative;
+color: white;
+background-color: black;
+border-radius: 15px;
+width: 280px;
+height: 350px;
+padding: 20px;
+margin: 20px;
+box-shadow: 10px 10px rgb(59, 55, 55);
+}
+.game-card8{
+position: relative;
+color: white;
+background-color: black;
+border-radius: 15px;
+width: 280px;
+height: 350px;
+padding: 20px;
+margin: 20px;
+box-shadow: 10px 10px rgb(59, 55, 55);
+}
+.game-card9{
+position: relative;
+color: white;
+background-color: black;
+border-radius: 15px;
+width: 280px;
+height: 350px;
+padding: 20px;
+margin: 20px;
+box-shadow: 10px 10px rgb(59, 55, 55);
+}
+.game-card10{
+position: relative;
+color: white;
+background-color: black;
+border-radius: 15px;
+width: 280px;
+height: 350px;
+padding: 20px;
+margin: 20px;
+box-shadow: 10px 10px rgb(59, 55, 55);
+}
+.game-card11{
+position: relative;
+color: white;
+background-color: black;
+border-radius: 15px;
+width: 280px;
+height: 350px;
+padding: 20px;
+margin: 20px;
+box-shadow: 10px 10px rgb(59, 55, 55);
+}
+.game-card12{
+position: relative;
+color: white;
+background-color: black;
+border-radius: 15px;
+width: 280px;
+height: 350px;
+padding: 20px;
+margin: 20px;
+box-shadow: 10px 10px rgb(59, 55, 55);
+}
+.Game-Name{
+text-align: center;
+}
+.info{
+position: absolute;
+top: 0;
+left: 0;
+display: none;
+z-index: 2;
+color: white;
+background-color: black;
+width: 300px;
+height: 300px;
+border: 10px solid pink;
+padding: 50px;
+margin: 20px;
+}
+.game-card1:hover .info{
+    display: block;
+    z-index: 100;
+}
+.game-card2:hover .info{
+    display: block;
+    z-index: 100;
+}
+
+.game-card3:hover .info{
+    display: block;
+    z-index: 100;
+}
+.game-card4:hover .info{
+    display: block;
+    z-index: 100;
+}
+.game-card5:hover .info{
+    display: block;
+    z-index: 100;
+}
+.game-card6:hover .info{
+    display: block;
+    z-index: 100;
+}
+.game-card7:hover .info{
+    display: block;
+    z-index: 100;
+}
+.game-card8:hover .info{
+    display: block;
+    z-index: 100;
+}
+.game-card9:hover .info{
+    display: block;
+    z-index: 100;
+}.game-card10:hover .info{
+    display: block;
+    z-index: 100;
+}.game-card11:hover .info{
+    display: block;
+    z-index: 100;
+}.game-card12:hover .info{
+    display: block;
+    z-index: 100;
+}
+
+.RhythmBlocks{
+position: relative;
+color: white;
+background-color: black;
+border-radius: 15px;
+width: 350px;
+height: 350px;
+padding: 20px;
+margin: 20px;
+box-shadow: 10px 10px rgb(59, 55, 55);
+}
+.RhythmBlocks:hover .info{
+    display: block;
+    z-index: 100;
+}
+.Heist{
+position: relative;
+color: white;
+background-color: black;
+border-radius: 15px;
+width: 350px;
+height: 350px;
+padding: 20px;
+margin: 20px;
+box-shadow: 10px 10px rgb(59, 55, 55);
+}
+.Heist:hover .info{
+    display: block;
+    z-index: 100;
+}
